@@ -1,5 +1,7 @@
 # npm-local
 
+It's possible to [specify a local dependency in package.json](https://stackoverflow.com/a/26028854/639133) (as of npm 2.0.0)
+
 Clone this repo
 ```bash
 export PRO_PATH="/absolute/path/to/your/projects/dir"
