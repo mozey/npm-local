@@ -1,0 +1,13 @@
+{
+    "name": "npm-local",
+    "version": "1.0.0",
+    "description": "Test installing npm packages from a local path",
+    "author": "Christiaan B van Zyl <christiaanvanzyl@gmail.com> (https://mozey.co)",
+    "license": "MIT",
+    "homepage": "https://github.com/mozey/npm-local",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mozey/npm-local"
+    }
+  }
+  
