@@ -9,3 +9,15 @@ git clone https://github.com/mozey/npm-local.git "$PRO_PATH/npm-local"
 ```
 
 Then follow instructions for [mozey/npm-import](https://github.com/mozey/npm-import/blob/main/README.md#npm-import)
+
+
+## Build
+
+Create a new build
+- Static analysis of TypeScript source
+- Create type definitions
+- Bundle app Javascript and CSS with esbuild
+```bash
+./scripts/app.sh
+ls -lah dist
+```

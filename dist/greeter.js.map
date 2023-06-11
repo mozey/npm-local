@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/greeter.ts"],
+  "sourcesContent": ["export class Greeter {\n    sayHello(name: string): string {\n        return \"Hello \" + name\n    }\n}"],
+  "mappings": "mBAAO,IAAMA,EAAN,KAAc,CACjB,SAASC,EAAsB,CAC3B,MAAO,SAAWA,CACtB,CACJ",
+  "names": ["Greeter", "name"]
+}

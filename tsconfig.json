@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		// Required if you use TypeScript with esbuild
+		// https://esbuild.github.io/content-types/#isolated-modules
+		// https://www.typescriptlang.org/tsconfig#isolatedModules
+		"isolatedModules": true,
+		// TODO Have a look at WebWorker API
+		// https://www.typescriptlang.org/tsconfig#lib
+		"lib": [
+			"ESNext",
+			"DOM"
+		],
+		"module": "ESNext",
+		"moduleResolution": "NodeNext",
+		"noEmit": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "ESNext",
+		"useDefineForClassFields": true
+	},
+	"include": [
+		"src"
+	]
+}

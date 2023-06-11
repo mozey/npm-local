@@ -8,6 +8,11 @@
     "repository": {
       "type": "git",
       "url": "git+https://github.com/mozey/npm-local"
-    }
+    },
+    "files": [
+      "dist/*",
+      "src/*"
+    ],
+    "types": "dist/npm-local.d.ts"
   }
   
